@@ -1,6 +1,6 @@
 organization := "de.sgeorgi"
 
-name := "count-stash-server"
+name := "count-stash"
 
 version := "0.1-SNAPSHOT"
 
@@ -19,4 +19,4 @@ libraryDependencies ++= Seq(
   "org.reactivemongo" 	%% "reactivemongo" % "0.10.5.akka23-SNAPSHOT"
 )
 
-Revolver.settings
+Revolver.settings: Seq[sbt.Def.Setting[_]]
