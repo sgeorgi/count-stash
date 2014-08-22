@@ -13,8 +13,8 @@ resolvers += "Sonatype Snapshots" at "https://oss.sonatype.org/content/repositor
 resolvers += "Typesafe" at "http://repo.typesafe.com/typesafe/releases/"
 
 libraryDependencies ++= Seq(
-  "com.typesafe.akka" 	%% "akka-actor" % "2.3.4",
-  "com.typesafe.akka" 	%% "akka-testkit" % "2.3.4" % "test",
+  "com.typesafe.akka" 	%% "akka-actor" % "2.3.5",
+  "com.typesafe.akka" 	%% "akka-testkit" % "2.3.5" % "test",
   "org.scalatest" 	% "scalatest_2.11" % "2.2.1" % "test",
   "org.reactivemongo" 	%% "reactivemongo" % "0.10.5.akka23-SNAPSHOT"
 )
